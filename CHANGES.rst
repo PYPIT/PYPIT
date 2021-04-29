@@ -27,6 +27,10 @@
 - Add wavelength RMS to SpecObj.  This is an update of the datamodel to
   1.3.3
 - Add Bok B&C spectrograph
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8de790dca1cb5756b9cafa212a357c1227cc6f59
 - Add `pypeit_obslog` script that simple compiles and prints metadata
   from a set of fits files needed by pypeit to run.
 - Change `PypeItSetup.from_file_root` to *require* the output path to
@@ -45,6 +49,14 @@ function completely to compute zeropoints and throughput. Enhanced sensfunc.py Q
 - Fixed ginga bugs in display.py and added automatic cuts to show_2dspec
 - Added latin hypercube sampler to pypeit.utils which is required for differential evolution
 optimizations.
+<<<<<<< HEAD
+
+=======
+- Improved GMOS R400 wavelength solution
+- Turned off GMOS-S binning restriction
+>>>>>>> 5412af20a2add090d55764478866ce4fe2fbf9be
+
+=======
 - Improved GMOS R400 wavelength solution
 - Turned off GMOS-S binning restriction
 - Add GTC OSIRIS spectrograph
@@ -62,6 +74,7 @@ optimizations.
 - `pypeit_show_2dspec` shows traces of forced extraction and manual extraction
   with a different colors
 - Updated docs about extraction and DEIMOS
+>>>>>>> 8de790dca1cb5756b9cafa212a357c1227cc6f59
 
 1.3.3 (24 Feb 2021)
 -------------------
