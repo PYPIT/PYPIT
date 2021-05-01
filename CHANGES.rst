@@ -64,6 +64,9 @@ optimizations.
 - `pypeit_show_2dspec` shows traces of forced extraction and manual extraction
   with a different colors
 - Updated docs about extraction and DEIMOS
+- Implement multi-detector flexure estimates
+- Fix error in variance for numpy fitting routines
+- Introduce HOWTO for DEIMOS
 
 1.3.3 (24 Feb 2021)
 -------------------

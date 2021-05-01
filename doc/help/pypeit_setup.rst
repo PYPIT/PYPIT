@@ -4,8 +4,8 @@
     usage: pypeit_setup [-h] [-s SPECTROGRAPH] [-r ROOT] [-e EXTENSION]
                         [-d OUTPUT_PATH] [-o] [-c CFG_SPLIT] [-b] [-v VERBOSITY]
     
-    Parse data files to construct a pypeit file in preparation for reduction using
-    'run_pypeit'
+    Parse data files to construct a pypeit file in preparation for reduction
+    using 'run_pypeit'
     
     optional arguments:
       -h, --help            show this help message and exit
@@ -33,13 +33,13 @@
                             Use the --extension option to set the types of files
                             to search for. Default is the current working
                             directory. (default:
-                            /Users/westfall/Work/packages/pypeit/doc)
+                            /data/Projects/Python/PypeIt/doc)
       -e EXTENSION, --extension EXTENSION
                             File extension; compression indicators (e.g. .gz) not
                             required. (default: .fits)
       -d OUTPUT_PATH, --output_path OUTPUT_PATH
                             Path to top-level output directory. (default:
-                            /Users/westfall/Work/packages/pypeit/doc)
+                            /data/Projects/Python/PypeIt/doc)
       -o, --overwrite       Overwrite any existing files/directories (default:
                             False)
       -c CFG_SPLIT, --cfg_split CFG_SPLIT
